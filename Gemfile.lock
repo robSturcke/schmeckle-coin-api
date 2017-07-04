@@ -24,6 +24,8 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
+    active-model-adapter-source (2.1.1)
+      ember-data-source (>= 1.13, < 3.0)
     activejob (5.1.2)
       activesupport (= 5.1.2)
       globalid (>= 0.3.6)
@@ -61,6 +63,9 @@ GEM
       execjs
     coffee-script-source (1.12.2)
     concurrent-ruby (1.0.5)
+    ember-data-source (2.14.2)
+      ember-source (>= 2, < 3.0)
+    ember-source (2.13.3)
     erubi (1.6.1)
     execjs (2.7.0)
     ffi (1.9.18)
@@ -170,6 +175,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  active-model-adapter-source (~> 2.0)
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
